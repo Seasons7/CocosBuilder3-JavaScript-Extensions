@@ -5,7 +5,7 @@
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>currentSequenceId</key>
 	<integer>0</integer>
 	<key>fileType</key>
@@ -83,7 +83,7 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>isTouchEnabled</string>
+						<string>touchEnabled</string>
 						<key>platform</key>
 						<string>iOS</string>
 						<key>type</key>
@@ -93,7 +93,7 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>isAccelerometerEnabled</string>
+						<string>accelerometerEnabled</string>
 						<key>platform</key>
 						<string>iOS</string>
 						<key>type</key>
@@ -113,7 +113,7 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>isKeyboardEnabled</string>
+						<string>keyboardEnabled</string>
 						<key>platform</key>
 						<string>Mac</string>
 						<key>type</key>
@@ -176,7 +176,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>52.766666412353516</real>
+							<real>45.683334350585938</real>
 							<real>11.957500457763672</real>
 							<integer>4</integer>
 						</array>
@@ -299,7 +299,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>clickme.png</string>
+							<string>ccbResources/clickme.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -322,7 +322,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>clickme-down.png</string>
+							<string>ccbResources/clickme-down.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -345,7 +345,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>clickme-down.png</string>
+							<string>ccbResources/clickme-down.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -431,7 +431,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>divertap.png</string>
+							<string>ccbResources/divertap.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -455,7 +455,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>Games</string>
+				<string>CCScrollView</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -469,9 +469,9 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>28.749998092651367</real>
-							<real>26.875</real>
-							<integer>4</integer>
+							<real>302</real>
+							<real>88</real>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -481,7 +481,7 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>250</real>
+							<real>200</real>
 							<real>100</real>
 							<integer>0</integer>
 						</array>
@@ -606,7 +606,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>isTouchEnabled</string>
+				<string>touchEnabled</string>
 				<key>platform</key>
 				<string>iOS</string>
 				<key>type</key>
@@ -616,7 +616,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>isAccelerometerEnabled</string>
+				<string>accelerometerEnabled</string>
 				<key>platform</key>
 				<string>iOS</string>
 				<key>type</key>
@@ -636,7 +636,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>isKeyboardEnabled</string>
+				<string>keyboardEnabled</string>
 				<key>platform</key>
 				<string>Mac</string>
 				<key>type</key>
@@ -664,12 +664,33 @@
 			<key>width</key>
 			<integer>480</integer>
 		</dict>
+		<dict>
+			<key>centeredOrigin</key>
+			<false/>
+			<key>ext</key>
+			<string>iphone</string>
+			<key>height</key>
+			<integer>320</integer>
+			<key>name</key>
+			<string>iPhone 5 Landscape</string>
+			<key>scale</key>
+			<real>1</real>
+			<key>width</key>
+			<integer>568</integer>
+		</dict>
 	</array>
 	<key>sequences</key>
 	<array>
 		<dict>
 			<key>autoPlay</key>
 			<true/>
+			<key>callbackChannel</key>
+			<dict>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>10</integer>
+			</dict>
 			<key>chainedSequenceId</key>
 			<integer>-1</integer>
 			<key>length</key>
@@ -686,6 +707,13 @@
 			<real>128</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
+			<key>soundChannel</key>
+			<dict>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
 		</dict>
 	</array>
 	<key>stageBorder</key>

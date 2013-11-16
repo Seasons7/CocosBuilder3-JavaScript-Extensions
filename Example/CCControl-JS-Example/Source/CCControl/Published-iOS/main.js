@@ -4,7 +4,6 @@ require("jsb.js");
 
 require("GamesScene.js");
 require("MainScene.js");
-require("Test.js");
 
 
 function main()

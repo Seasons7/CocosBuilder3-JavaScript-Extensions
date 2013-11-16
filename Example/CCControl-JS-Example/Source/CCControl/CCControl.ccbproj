@@ -17,7 +17,7 @@
 	<key>fileVersion</key>
 	<integer>1</integer>
 	<key>flattenPaths</key>
-	<false/>
+	<true/>
 	<key>generatedSpriteSheets</key>
 	<dict/>
 	<key>javascriptBased</key>
@@ -51,7 +51,7 @@
 	<key>publishResolution_ipad</key>
 	<true/>
 	<key>publishResolution_ipadhd</key>
-	<false/>
+	<true/>
 	<key>publishResolution_large</key>
 	<true/>
 	<key>publishResolution_medium</key>
@@ -65,7 +65,7 @@
 	<key>publishToZipFile</key>
 	<false/>
 	<key>resourceAutoScaleFactor</key>
-	<integer>2</integer>
+	<integer>4</integer>
 	<key>resourcePaths</key>
 	<array>
 		<dict>
