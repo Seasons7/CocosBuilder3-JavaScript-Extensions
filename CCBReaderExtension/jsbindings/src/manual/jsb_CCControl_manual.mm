@@ -61,11 +61,9 @@ JSBool JSB_CCControl_setBlock_forControlEvents_( JSContext *cx, uint32_t argc, j
 // item.openURL( url );
 JSBool JSB_CCControl_openURL_( JSContext *cx, uint32_t argc, jsval *vp ) {
 	
-	JSB_PRECONDITION( 0 , "Not implement!!");
-    
-	/*
 	JSObject* jsthis = (JSObject *)JS_THIS_OBJECT(cx, vp);
-	JSB_NSObject *proxy = (JSB_NSObject*) jsb_get_proxy_for_jsobject(jsthis);
+    
+	JSB_NSObject *proxy = (JSB_NSObject*) JSB_get_proxy_for_jsobject(jsthis);
 	
 	JSB_PRECONDITION( proxy && [proxy realObj], "Invalid Proxy object");
 	JSB_PRECONDITION( argc==1 , "Invalid number of arguments. Expecting 1 args" );
@@ -75,19 +73,16 @@ JSBool JSB_CCControl_openURL_( JSContext *cx, uint32_t argc, jsval *vp ) {
     
 	JSBool ok = JS_TRUE;
     
-	ok &= jsval_to_NSString( cx, argvp[0], &url );
-    
-    
-	JSB_PRECONDITION3(ok, cx, JS_FALSE, "Error parsing arguments");
+	ok &= JSB_jsval_to_NSString(cx, argvp[0], &url);
+	JSB_PRECONDITION2(ok, cx, JS_FALSE, "Error parsing arguments");
 	
 	CCControl *real = (CCControl*) [proxy realObj];
     
 	[real openURL:url];
     
 	JS_SET_RVAL(cx, vp, JSVAL_VOID);
-	*/
     
-//	return JS_TRUE;
+	return JS_TRUE;
 }
 
 #endif // JSB_INCLUDE_CCCONTROL
