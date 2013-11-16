@@ -57,8 +57,9 @@ typedef enum {
 @interface CCLayer : CCNode <CCAccelerometerDelegate, CCTouchAllAtOnceDelegate, CCTouchOneByOneDelegate>
 {
 	BOOL _touchEnabled;
-	BOOL _touchPriority;
+	NSInteger _touchPriority;
 	BOOL _touchMode;
+    BOOL _touchSwallow;
 	
 	BOOL _accelerometerEnabled;
 }
@@ -84,6 +85,9 @@ typedef enum {
  */
 @property(nonatomic, assign) ccTouchesMode touchMode;
 
+/** whether touch events are swallowed (in kCCTouchesOneByOne mode) */
+@property(nonatomic, assign) BOOL touchSwallow;
+
 /** sets the accelerometer's update frequency. A value of 1/2 means that the callback is going to be called twice per second.
  @since v2.1
  */
@@ -104,7 +108,8 @@ typedef enum {
 	BOOL		_touchEnabled;
 	NSInteger	_touchPriority;
 	NSInteger	_touchMode;
-    
+    BOOL        _touchSwallow;
+
 	BOOL		_gestureEnabled;
 	NSInteger	_gesturePriority;
 }
@@ -136,13 +141,33 @@ typedef enum {
 /** Priority of keyboard events. Default is 0 */
 @property (nonatomic, assign) NSInteger keyboardPriority;
 
-
-
-
 #endif // mac
 
-
 @end
+
+
+#pragma mark -
+#pragma mark CCLayerRGBA
+
+/** CCLayerRGBA is a subclass of CCLayer that implements the CCRGBAProtocol protocol using a solid color as the background.
+
+ All features from CCLayer are valid, plus the following new features that propagate into children that conform to the CCRGBAProtocol:
+ - opacity
+ - RGB colors
+ @since 2.1
+ */
+@interface CCLayerRGBA : CCLayer <CCRGBAProtocol>
+{
+	GLubyte		_displayedOpacity, _realOpacity;
+	ccColor3B	_displayedColor, _realColor;
+	BOOL		_cascadeOpacityEnabled, _cascadeColorEnabled;
+}
+
+// XXX: To make BridgeSupport happy
+-(GLubyte) opacity;
+@end
+
+
 
 #pragma mark -
 #pragma mark CCLayerColor
@@ -153,10 +178,8 @@ typedef enum {
  - opacity
  - RGB colors
  */
-@interface CCLayerColor : CCLayer <CCRGBAProtocol, CCBlendProtocol>
+@interface CCLayerColor : CCLayerRGBA <CCBlendProtocol>
 {
-	GLubyte		_opacity;
-	ccColor3B	_color;
 	ccVertex2F	_squareVertices[4];
 	ccColor4F	_squareColors[4];
 
@@ -184,10 +207,6 @@ typedef enum {
  */
 -(void) changeWidth:(GLfloat)w height:(GLfloat)h;
 
-/** Opacity: conforms to CCRGBAProtocol protocol */
-@property (nonatomic,readonly) GLubyte opacity;
-/** Opacity: conforms to CCRGBAProtocol protocol */
-@property (nonatomic,readonly) ccColor3B color;
 /** BlendFunction. Conforms to CCBlendProtocol protocol */
 @property (nonatomic,readwrite) ccBlendFunc blendFunc;
 @end
