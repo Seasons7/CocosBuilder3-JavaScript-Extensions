@@ -31,29 +31,10 @@
 		5FF465B216A2BC5F00F67576 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FF465B116A2BC5F00F67576 /* AppDelegate.mm */; };
 		5FF465B416A2BC5F00F67576 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF465B316A2BC5F00F67576 /* grossini_dance_atlas.png */; };
 		AD0086501837AD39000AD184 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD00864F1837AD39000AD184 /* CoreText.framework */; };
-		AD00868C1837ADA7000AD184 /* ccbDefaultImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD0086531837ADA7000AD184 /* ccbDefaultImages.plist */; };
-		AD00868D1837ADA7000AD184 /* ccbDefaultImages.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086541837ADA7000AD184 /* ccbDefaultImages.png */; };
-		AD00868E1837ADA7000AD184 /* ccbParticleFire.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086551837ADA7000AD184 /* ccbParticleFire.png */; };
-		AD00868F1837ADA7000AD184 /* ccbParticleSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086561837ADA7000AD184 /* ccbParticleSmoke.png */; };
-		AD0086901837ADA7000AD184 /* ccbParticleSnow.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086571837ADA7000AD184 /* ccbParticleSnow.png */; };
-		AD0086911837ADA7000AD184 /* ccbParticleStars.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086581837ADA7000AD184 /* ccbParticleStars.png */; };
 		AD0086921837ADA7000AD184 /* clickme-down.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086591837ADA7000AD184 /* clickme-down.png */; };
 		AD0086931837ADA7000AD184 /* clickme.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00865A1837ADA7000AD184 /* clickme.png */; };
-		AD0086941837ADA7000AD184 /* divertap.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00865B1837ADA7000AD184 /* divertap.png */; };
-		AD0086951837ADA7000AD184 /* ioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00865C1837ADA7000AD184 /* ioca.png */; };
-		AD0086961837ADA7000AD184 /* parchis.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00865D1837ADA7000AD184 /* parchis.png */; };
-		AD0086971837ADA7000AD184 /* quiniloo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00865E1837ADA7000AD184 /* quiniloo.png */; };
-		AD0086981837ADA7000AD184 /* ccbDefaultImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD0086601837ADA7000AD184 /* ccbDefaultImages.plist */; };
-		AD0086991837ADA7000AD184 /* ccbDefaultImages.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086611837ADA7000AD184 /* ccbDefaultImages.png */; };
-		AD00869A1837ADA7000AD184 /* ccbDefaultImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD0086631837ADA7000AD184 /* ccbDefaultImages.plist */; };
-		AD00869B1837ADA7000AD184 /* ccbDefaultImages.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086641837ADA7000AD184 /* ccbDefaultImages.png */; };
-		AD00869C1837ADA7000AD184 /* ccbDefaultImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD0086671837ADA7000AD184 /* ccbDefaultImages.plist */; };
-		AD00869D1837ADA7000AD184 /* ccbDefaultImages.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086681837ADA7000AD184 /* ccbDefaultImages.png */; };
-		AD00869E1837ADA7000AD184 /* rita.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086691837ADA7000AD184 /* rita.png */; };
 		AD00869F1837ADA7000AD184 /* clickme-down-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00866A1837ADA7000AD184 /* clickme-down-hd.png */; };
-		AD0086A01837ADA7000AD184 /* clickme-down.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00866B1837ADA7000AD184 /* clickme-down.png */; };
 		AD0086A11837ADA7000AD184 /* clickme-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00866C1837ADA7000AD184 /* clickme-hd.png */; };
-		AD0086A21837ADA7000AD184 /* clickme.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00866D1837ADA7000AD184 /* clickme.png */; };
 		AD0086A31837ADA7000AD184 /* divertap-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00866E1837ADA7000AD184 /* divertap-hd.png */; };
 		AD0086A41837ADA7000AD184 /* divertap.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00866F1837ADA7000AD184 /* divertap.png */; };
 		AD0086A51837ADA7000AD184 /* fileLookup.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD0086701837ADA7000AD184 /* fileLookup.plist */; };
@@ -65,14 +46,6 @@
 		AD0086AE1837ADA7000AD184 /* parchis.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086791837ADA7000AD184 /* parchis.png */; };
 		AD0086AF1837ADA7000AD184 /* quiniloo-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00867A1837ADA7000AD184 /* quiniloo-hd.png */; };
 		AD0086B01837ADA7000AD184 /* quiniloo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00867B1837ADA7000AD184 /* quiniloo.png */; };
-		AD0086B11837ADA7000AD184 /* clickme-down.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00867D1837ADA7000AD184 /* clickme-down.png */; };
-		AD0086B21837ADA7000AD184 /* clickme.png in Resources */ = {isa = PBXBuildFile; fileRef = AD00867E1837ADA7000AD184 /* clickme.png */; };
-		AD0086B31837ADA7000AD184 /* clickme-down.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086801837ADA7000AD184 /* clickme-down.png */; };
-		AD0086B41837ADA7000AD184 /* clickme.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086811837ADA7000AD184 /* clickme.png */; };
-		AD0086B51837ADA7000AD184 /* clickme-down.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086831837ADA7000AD184 /* clickme-down.png */; };
-		AD0086B61837ADA7000AD184 /* clickme.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086841837ADA7000AD184 /* clickme.png */; };
-		AD0086B71837ADA7000AD184 /* clickme-down.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086861837ADA7000AD184 /* clickme-down.png */; };
-		AD0086B81837ADA7000AD184 /* clickme.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086871837ADA7000AD184 /* clickme.png */; };
 		AD0086B91837ADA7000AD184 /* rita-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086881837ADA7000AD184 /* rita-hd.png */; };
 		AD0086BA1837ADA7000AD184 /* rita.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0086891837ADA7000AD184 /* rita.png */; };
 		AD0086BD1837ADCA000AD184 /* GamesScene.js in Resources */ = {isa = PBXBuildFile; fileRef = AD0086721837ADA7000AD184 /* GamesScene.js */; };
@@ -85,7 +58,6 @@
 		AD91727B1837A679002DBD5C /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9170D81837A678002DBD5C /* CCBSequenceProperty.m */; };
 		AD91727C1837A679002DBD5C /* CCNode+CCBRelativePositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9170DA1837A678002DBD5C /* CCNode+CCBRelativePositioning.m */; };
 		AD91727D1837A679002DBD5C /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9170F91837A678002DBD5C /* chipmunk.c */; };
-		AD91727E1837A679002DBD5C /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD9170FA1837A678002DBD5C /* CMakeLists.txt */; };
 		AD91727F1837A679002DBD5C /* cpConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9170FC1837A678002DBD5C /* cpConstraint.c */; };
 		AD9172801837A679002DBD5C /* cpDampedRotarySpring.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9170FD1837A678002DBD5C /* cpDampedRotarySpring.c */; };
 		AD9172811837A679002DBD5C /* cpDampedSpring.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9170FE1837A678002DBD5C /* cpDampedSpring.c */; };
@@ -208,10 +180,8 @@
 		AD9172F61837A679002DBD5C /* CDXMacOSXSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9171F11837A678002DBD5C /* CDXMacOSXSupport.m */; };
 		AD9172F71837A679002DBD5C /* CDXPropertyModifierAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9171F31837A678002DBD5C /* CDXPropertyModifierAction.m */; };
 		AD9172F81837A679002DBD5C /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9171F51837A678002DBD5C /* CocosDenshion.m */; };
-		AD9172F91837A679002DBD5C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD9171F61837A678002DBD5C /* README.md */; };
 		AD9172FA1837A679002DBD5C /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9171F81837A678002DBD5C /* SimpleAudioEngine.m */; };
 		AD9172FB1837A679002DBD5C /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9171FB1837A678002DBD5C /* JRSwizzle.m */; };
-		AD9172FC1837A679002DBD5C /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = AD9171FC1837A678002DBD5C /* README.markdown */; };
 		AD9172FD1837A679002DBD5C /* aabb.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9172101837A678002DBD5C /* aabb.c */; };
 		AD9172FE1837A679002DBD5C /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = AD9172111837A678002DBD5C /* ChangeLog */; };
 		AD9172FF1837A679002DBD5C /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD9172121837A678002DBD5C /* CMakeLists.txt */; };
@@ -227,7 +197,6 @@
 		AD9173091837A679002DBD5C /* vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = AD91721D1837A678002DBD5C /* vec2.c */; };
 		AD91730A1837A679002DBD5C /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = AD91721E1837A678002DBD5C /* vec3.c */; };
 		AD91730B1837A679002DBD5C /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = AD91721F1837A678002DBD5C /* vec4.c */; };
-		AD91730C1837A679002DBD5C /* LICENSE_CCBReader.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD9172201837A678002DBD5C /* LICENSE_CCBReader.txt */; };
 		AD91730D1837A679002DBD5C /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD9172211837A678002DBD5C /* LICENSE_Chipmunk.txt */; };
 		AD91730E1837A679002DBD5C /* LICENSE_cocos2d.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD9172221837A678002DBD5C /* LICENSE_cocos2d.txt */; };
 		AD91730F1837A679002DBD5C /* LICENSE_CocosDenshion.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD9172231837A678002DBD5C /* LICENSE_CocosDenshion.txt */; };
@@ -247,11 +216,9 @@
 		AD9173DB1837A696002DBD5C /* CCControlSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AD91732A1837A696002DBD5C /* CCControlSlider.m */; };
 		AD9173DC1837A696002DBD5C /* CCControlStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD91732C1837A696002DBD5C /* CCControlStepper.m */; };
 		AD9173DD1837A696002DBD5C /* CCControlSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = AD91732E1837A696002DBD5C /* CCControlSwitch.m */; };
-		AD9173E11837A696002DBD5C /* CCControlSwitchMask.fsh in Sources */ = {isa = PBXBuildFile; fileRef = AD9173331837A696002DBD5C /* CCControlSwitchMask.fsh */; };
 		AD9173E21837A696002DBD5C /* CCColourUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9173361837A696002DBD5C /* CCColourUtils.m */; };
 		AD9173E41837A696002DBD5C /* CCScale9Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9173391837A696002DBD5C /* CCScale9Sprite.m */; };
 		AD9173E51837A696002DBD5C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AD91733B1837A696002DBD5C /* Utils.m */; };
-		AD9173E61837A696002DBD5C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD91733D1837A696002DBD5C /* README.md */; };
 		AD9173E71837A696002DBD5C /* CCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9173401837A696002DBD5C /* CCScrollView.m */; };
 		AD9174001837A696002DBD5C /* jsb_CCControl_classes.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD91735F1837A696002DBD5C /* jsb_CCControl_classes.mm */; };
 		AD9174011837A696002DBD5C /* jsb_CCControl_functions.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD9173621837A696002DBD5C /* jsb_CCControl_functions.mm */; };
@@ -287,7 +254,6 @@
 		AD91742B1837A696002DBD5C /* jsb_opengl_registration.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD9173BC1837A696002DBD5C /* jsb_opengl_registration.mm */; };
 		AD91742C1837A696002DBD5C /* jsb_system_registration.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD9173BE1837A696002DBD5C /* jsb_system_registration.mm */; };
 		AD91742D1837A696002DBD5C /* LocalStorage.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9173C11837A696002DBD5C /* LocalStorage.c */; };
-		AD91742E1837A696002DBD5C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD9173C31837A696002DBD5C /* README.md */; };
 		AD91742F1837A696002DBD5C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AD9173C51837A696002DBD5C /* LICENSE */; };
 		AD9174301837A696002DBD5C /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9173C81837A696002DBD5C /* ioapi.c */; };
 		AD9174311837A696002DBD5C /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9173CA1837A696002DBD5C /* mztools.c */; };
@@ -2090,22 +2056,16 @@
 				AD9174351837A94C002DBD5C /* jsb.js in Resources */,
 				AD9174361837A94C002DBD5C /* jsb_chipmunk.js in Resources */,
 				AD9174371837A94C002DBD5C /* jsb_chipmunk_constants.js in Resources */,
-				AD0086941837ADA7000AD184 /* divertap.png in Resources */,
 				AD9174381837A94C002DBD5C /* jsb_cocos2d.js in Resources */,
 				AD9174391837A94C002DBD5C /* jsb_cocos2d_constants.js in Resources */,
-				AD0086B51837ADA7000AD184 /* clickme-down.png in Resources */,
-				AD0086B41837ADA7000AD184 /* clickme.png in Resources */,
-				AD0086A01837ADA7000AD184 /* clickme-down.png in Resources */,
 				AD0086B01837ADA7000AD184 /* quiniloo.png in Resources */,
 				AD00869F1837ADA7000AD184 /* clickme-down-hd.png in Resources */,
 				AD91743A1837A94C002DBD5C /* jsb_cocosbuilder.js in Resources */,
 				AD91743B1837A94C002DBD5C /* jsb_constants_cccontrol.js in Resources */,
-				AD0086981837ADA7000AD184 /* ccbDefaultImages.plist in Resources */,
 				AD91743C1837A94C002DBD5C /* jsb_constants_ccscrollview.js in Resources */,
 				AD0086A31837ADA7000AD184 /* divertap-hd.png in Resources */,
 				AD91743D1837A94C002DBD5C /* jsb_debugger.js in Resources */,
 				AD91743E1837A94C002DBD5C /* jsb_opengl.js in Resources */,
-				AD00868D1837ADA7000AD184 /* ccbDefaultImages.png in Resources */,
 				AD91743F1837A94C002DBD5C /* jsb_opengl_constants.js in Resources */,
 				AD9174401837A94C002DBD5C /* jsb_sys.js in Resources */,
 				5FF462F316A2BC5300F67576 /* Default.png in Resources */,
@@ -2113,65 +2073,38 @@
 				5FF462F516A2BC5300F67576 /* Default@2x.png in Resources */,
 				AD0086A41837ADA7000AD184 /* divertap.png in Resources */,
 				5FF462F716A2BC5300F67576 /* Default-568h@2x.png in Resources */,
-				AD0086B81837ADA7000AD184 /* clickme.png in Resources */,
 				AD9173151837A679002DBD5C /* libjs_static.a.desc in Resources */,
 				AD0086A61837ADA7000AD184 /* GamesScene.ccbi in Resources */,
-				AD0086B71837ADA7000AD184 /* clickme-down.png in Resources */,
 				AD0086A51837ADA7000AD184 /* fileLookup.plist in Resources */,
-				AD00868E1837ADA7000AD184 /* ccbParticleFire.png in Resources */,
 				5FF462F916A2BC5300F67576 /* Default-Landscape~ipad.png in Resources */,
 				5FF462FB16A2BC5300F67576 /* Icon-72.png in Resources */,
 				5FF462FD16A2BC5300F67576 /* Icon-Small-50.png in Resources */,
 				AD9173131837A679002DBD5C /* js.msg in Resources */,
 				AD9173121837A679002DBD5C /* LICENSE_Kazmath.txt in Resources */,
 				AD9173101837A679002DBD5C /* LICENSE_JRSwizzle.txt in Resources */,
-				AD9172FC1837A679002DBD5C /* README.markdown in Resources */,
-				AD0086961837ADA7000AD184 /* parchis.png in Resources */,
-				AD00869A1837ADA7000AD184 /* ccbDefaultImages.plist in Resources */,
 				5FF462FF16A2BC5300F67576 /* Icon-Small.png in Resources */,
-				AD00869D1837ADA7000AD184 /* ccbDefaultImages.png in Resources */,
 				AD9172FF1837A679002DBD5C /* CMakeLists.txt in Resources */,
 				AD0086B91837ADA7000AD184 /* rita-hd.png in Resources */,
 				AD0086AD1837ADA7000AD184 /* parchis-hd.png in Resources */,
 				5FF4630116A2BC5300F67576 /* Icon-Small@2x.png in Resources */,
 				AD0086BA1837ADA7000AD184 /* rita.png in Resources */,
-				AD0086B61837ADA7000AD184 /* clickme.png in Resources */,
 				AD0086AB1837ADA7000AD184 /* MainScene.ccbi in Resources */,
-				AD9173E61837A696002DBD5C /* README.md in Resources */,
-				AD0086971837ADA7000AD184 /* quiniloo.png in Resources */,
 				5FF4630316A2BC5300F67576 /* Icon.png in Resources */,
-				AD00869C1837ADA7000AD184 /* ccbDefaultImages.plist in Resources */,
-				AD0086951837ADA7000AD184 /* ioca.png in Resources */,
-				AD0086B11837ADA7000AD184 /* clickme-down.png in Resources */,
-				AD00869B1837ADA7000AD184 /* ccbDefaultImages.png in Resources */,
 				5FF4630516A2BC5300F67576 /* Icon@2x.png in Resources */,
-				AD00869E1837ADA7000AD184 /* rita.png in Resources */,
 				5FF4630816A2BC5400F67576 /* iTunesArtwork in Resources */,
-				AD0086911837ADA7000AD184 /* ccbParticleStars.png in Resources */,
 				AD91742F1837A696002DBD5C /* LICENSE in Resources */,
-				AD91730C1837A679002DBD5C /* LICENSE_CCBReader.txt in Resources */,
-				AD0086B21837ADA7000AD184 /* clickme.png in Resources */,
-				AD00868F1837ADA7000AD184 /* ccbParticleSmoke.png in Resources */,
 				5FF465B416A2BC5F00F67576 /* grossini_dance_atlas.png in Resources */,
-				AD0086991837ADA7000AD184 /* ccbDefaultImages.png in Resources */,
 				AD9173111837A679002DBD5C /* LICENSE_jsbindings.txt in Resources */,
 				AD9172FE1837A679002DBD5C /* ChangeLog in Resources */,
 				AD91730E1837A679002DBD5C /* LICENSE_cocos2d.txt in Resources */,
 				AD0086AE1837ADA7000AD184 /* parchis.png in Resources */,
-				AD9172F91837A679002DBD5C /* README.md in Resources */,
 				AD0086A81837ADA7000AD184 /* ioca-hd.png in Resources */,
 				AD91730D1837A679002DBD5C /* LICENSE_Chipmunk.txt in Resources */,
 				AD0086AF1837ADA7000AD184 /* quiniloo-hd.png in Resources */,
 				AD0086A91837ADA7000AD184 /* ioca.png in Resources */,
-				AD0086B31837ADA7000AD184 /* clickme-down.png in Resources */,
-				AD0086A21837ADA7000AD184 /* clickme.png in Resources */,
-				AD00868C1837ADA7000AD184 /* ccbDefaultImages.plist in Resources */,
-				AD91742E1837A696002DBD5C /* README.md in Resources */,
 				AD91730F1837A679002DBD5C /* LICENSE_CocosDenshion.txt in Resources */,
 				AD9173161837A679002DBD5C /* LICENSE_SpiderMonkey.txt in Resources */,
 				AD0086931837ADA7000AD184 /* clickme.png in Resources */,
-				AD91727E1837A679002DBD5C /* CMakeLists.txt in Resources */,
-				AD0086901837ADA7000AD184 /* ccbParticleSnow.png in Resources */,
 				AD0086921837ADA7000AD184 /* clickme-down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2335,7 +2268,6 @@
 				AD9172BE1837A679002DBD5C /* CCMotionStreak.m in Sources */,
 				AD9174051837A696002DBD5C /* jsb_chipmunk_functions.mm in Sources */,
 				AD9172CE1837A679002DBD5C /* CCSprite.m in Sources */,
-				AD9173E11837A696002DBD5C /* CCControlSwitchMask.fsh in Sources */,
 				AD9174341837A696002DBD5C /* SSZipArchive.m in Sources */,
 				AD9174241837A696002DBD5C /* jsb_cocos2d_manual.mm in Sources */,
 				AD9172D41837A679002DBD5C /* CCTextureCache.m in Sources */,
@@ -2444,11 +2376,10 @@
 				);
 				HEADER_SEARCH_PATHS = "\"CCControl-JS-Example/libs/kazmath/include\"";
 				INFOPLIST_FILE = "CCControl-JS-Example/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\"$(SRCROOT)/CCControl-JS-Example/libs/SpiderMonkey/ios/lib\\\"",
-					"/Users/keisukehata/Dropbox/Github/CocosBuilder3-JavaScript-Extensions/Example/CCControl-JS-Example/CCControl-JS-Example/libs/SpiderMonkey/ios/lib",
+					"$(SRCROOT)/CCControl-JS-Example/libs/SpiderMonkey/ios/lib",
 				);
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -2477,11 +2408,10 @@
 				);
 				HEADER_SEARCH_PATHS = "\"CCControl-JS-Example/libs/kazmath/include\"";
 				INFOPLIST_FILE = "CCControl-JS-Example/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\"$(SRCROOT)/CCControl-JS-Example/libs/SpiderMonkey/ios/lib\\\"",
-					"/Users/keisukehata/Dropbox/Github/CocosBuilder3-JavaScript-Extensions/Example/CCControl-JS-Example/CCControl-JS-Example/libs/SpiderMonkey/ios/lib",
+					"$(SRCROOT)/CCControl-JS-Example/libs/SpiderMonkey/ios/lib",
 				);
 				OTHER_LDFLAGS = (
 					"-lz",

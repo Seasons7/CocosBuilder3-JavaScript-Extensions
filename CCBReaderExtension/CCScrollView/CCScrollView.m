@@ -203,7 +203,8 @@
 #pragma mark -
 #pragma mark Properties
 -(void)setIsTouchEnabled:(BOOL)e {
-    [super setIsTouchEnabled:e];
+    
+    [super setTouchEnabled:e];
     if (!e) {
         isDragging_ = NO;
         touchMoved_ = NO;

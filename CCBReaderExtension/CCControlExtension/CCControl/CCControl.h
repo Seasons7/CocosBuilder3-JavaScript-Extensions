@@ -92,7 +92,14 @@ typedef void (^CCControlBlock) (id sender, CCControlEvent event);
 @private
     NSMutableDictionary *dispatchTable_;
     NSMutableDictionary *dispatchBlockTable_;
+    
+    BOOL _cascadeColorEnabled;
+    BOOL _cascadeOpacityEnabled;
+	GLubyte		_displayedOpacity;
+	ccColor3B	_displayedColor;
+
 }
+
 /** Conforms to CCRGBAProtocol protocol. */
 @property (nonatomic, readwrite) GLubyte opacity;
 /** Conforms to CCRGBAProtocol protocol. */

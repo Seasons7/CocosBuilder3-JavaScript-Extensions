@@ -47,6 +47,11 @@
     GLubyte             opacity_;
     ccColor3B           color_;
     BOOL                opacityModifyRGB_;
+@private
+    BOOL _cascadeColorEnabled;
+    BOOL _cascadeOpacityEnabled;
+	GLubyte		_displayedOpacity;
+	ccColor3B	_displayedColor;
 }
 /** Original sprite's size. */
 @property (nonatomic, readonly) CGSize originalSize;

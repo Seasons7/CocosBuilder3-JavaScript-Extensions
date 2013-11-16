@@ -110,6 +110,7 @@
 @end
 
 @implementation CCControl
+
 @synthesize dispatchTable           = dispatchTable_;
 @synthesize dispatchBlockTable      = dispatchBlockTable_;
 @synthesize defaultTouchPriority    = defaultTouchPriority_;
@@ -120,6 +121,17 @@
 @synthesize opacity                 = opacity_;
 @synthesize color                   = color_;
 @synthesize opacityModifyRGB        = opacityModifyRGB_;
+
+@synthesize cascadeColorEnabled = _cascadeColorEnabled;
+@synthesize cascadeOpacityEnabled = _cascadeOpacityEnabled;
+
+- (void) updateDisplayedColor:(ccColor3B)color{
+    NSAssert(0, @"Not implemented!!");
+}
+
+- (void)updateDisplayedOpacity:(GLubyte)opacity {
+    NSAssert(0, @"Not implemented!!");
+}
 
 - (void)dealloc
 {
@@ -135,7 +147,7 @@
     {
 #ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
 		// Enabled the touch event
-        self.isTouchEnabled         = YES;
+        [self setTouchEnabled:YES];
 #elif __MAC_OS_X_VERSION_MAX_ALLOWED
         // Enabled the mouse event
 		self.mouseEnabled         = YES;
@@ -154,6 +166,9 @@
         // Initialise the tables
         dispatchTable_              = [[NSMutableDictionary alloc] initWithCapacity:1];
         dispatchBlockTable_         = [[NSMutableDictionary alloc] initWithCapacity:1];
+        
+        _displayedColor = ccWHITE;
+        _displayedOpacity = 255;
     }
     return self;
 }
@@ -188,6 +203,18 @@
 
 #pragma mark Properties
 
+- (ccColor3B) displayedColor {
+    return _displayedColor;
+}
+
+- (GLubyte) displayedOpacity {
+    return _displayedOpacity;
+}
+
+- (ccColor3B) color{
+    return color_;
+}
+
 - (void)setColor:(ccColor3B)color
 {
     color_ = color;
@@ -196,6 +223,10 @@
     {
         [child setColor:color];
     }
+}
+
+- (GLubyte) opacity {
+    return opacity_;
 }
 
 - (void)setOpacity:(GLubyte)opacity
@@ -208,6 +239,10 @@
     }
 }
 
+- (BOOL) opacityModifyRGB {
+    return opacityModifyRGB_;
+}
+
 - (void)setOpacityModifyRGB:(BOOL)opacityModifyRGB
 {
     opacityModifyRGB_ = opacityModifyRGB;
@@ -216,6 +251,10 @@
     {
         [child setOpacityModifyRGB:opacityModifyRGB];
     }
+}
+
+- (BOOL) enabled {
+    return enabled_;
 }
 
 - (void)setEnabled:(BOOL)enabled
@@ -231,11 +270,19 @@
     [self needsLayout];
 }
 
+- (BOOL) selected {
+    return selected_;
+}
+
 - (void)setSelected:(BOOL)selected
 {
     selected_       = selected;
     
     [self needsLayout];
+}
+
+- (BOOL) highlighted {
+    return highlighted_;
 }
 
 - (void)setHighlighted:(BOOL)highlighted

@@ -28,6 +28,7 @@ enum positions
 @end
 
 @implementation CCScale9Sprite
+
 @synthesize originalSize        = originalSize_;
 @synthesize capInsets           = capInsets_;
 @synthesize opacity             = opacity_;
@@ -38,6 +39,8 @@ enum positions
 @synthesize insetBottom         = insetBottom_;
 @synthesize insetRight          = insetRight_;
 @synthesize preferedSize        = preferedSize_;
+@synthesize cascadeColorEnabled = _cascadeColorEnabled;
+@synthesize cascadeOpacityEnabled = _cascadeOpacityEnabled;
 
 - (void)dealloc
 {
@@ -54,6 +57,15 @@ enum positions
     
     [super          dealloc];
 }
+
+- (void) updateDisplayedColor:(ccColor3B)color{
+    NSAssert(0, @"Not implemented!!");
+}
+
+- (void)updateDisplayedOpacity:(GLubyte)opacity {
+    NSAssert(0, @"Not implemented!!");
+}
+
 
 #pragma mark Constructor - Initializers
 
@@ -622,6 +634,14 @@ enum positions
 {
     insetBottom_ = insetBottom;
     [self updateCapInset_];
+}
+
+- (ccColor3B) displayedColor {
+    return _displayedColor;
+}
+
+- (GLubyte) displayedOpacity {
+    return _displayedOpacity;
 }
 
 #pragma mark -
